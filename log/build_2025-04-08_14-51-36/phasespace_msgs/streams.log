@@ -1,0 +1,335 @@
+[0.006s] Invoking command in '/home/lingfan/ros2_ws/build/phasespace_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lingfan/ros2_ws/src/phasespace_ros_node-main/phasespace_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lingfan/ros2_ws/install/phasespace_msgs
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.106s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.195s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.195s] -- Detecting C compile features
+[0.196s] -- Detecting C compile features - done
+[0.199s] -- Detecting CXX compiler ABI info
+[0.295s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.301s] -- Detecting CXX compile features
+[0.301s] -- Detecting CXX compile features - done
+[0.303s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.422s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.467s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.479s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.484s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.509s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.529s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.775s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.945s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.149s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.172s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.172s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.190s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.190s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.190s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.190s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.205s] -- Found PythonExtra: .so  
+[1.242s] -- Configuring done
+[1.267s] -- Generating done
+[1.274s] -- Build files have been written to: /home/lingfan/ros2_ws/build/phasespace_msgs
+[1.279s] Invoked command in '/home/lingfan/ros2_ws/build/phasespace_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lingfan/ros2_ws/src/phasespace_ros_node-main/phasespace_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lingfan/ros2_ws/install/phasespace_msgs
+[1.279s] Invoking command in '/home/lingfan/ros2_ws/build/phasespace_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lingfan/ros2_ws/build/phasespace_msgs -- -j16 -l16
+[1.320s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.330s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.338s] [  2%] Built target ament_cmake_python_symlink_phasespace_msgs
+[1.474s] running egg_info
+[1.474s] creating phasespace_msgs.egg-info
+[1.474s] writing phasespace_msgs.egg-info/PKG-INFO
+[1.474s] writing dependency_links to phasespace_msgs.egg-info/dependency_links.txt
+[1.474s] writing top-level names to phasespace_msgs.egg-info/top_level.txt
+[1.474s] writing manifest file 'phasespace_msgs.egg-info/SOURCES.txt'
+[1.475s] reading manifest file 'phasespace_msgs.egg-info/SOURCES.txt'
+[1.476s] writing manifest file 'phasespace_msgs.egg-info/SOURCES.txt'
+[1.492s] [  2%] Built target ament_cmake_python_build_phasespace_msgs_egg
+[1.636s] [  7%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_c.dir/rosidl_generator_c/phasespace_msgs/msg/detail/marker__functions.c.o[0m
+[1.636s] [  7%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_c.dir/rosidl_generator_c/phasespace_msgs/msg/detail/rigid__functions.c.o[0m
+[1.636s] [  7%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_c.dir/rosidl_generator_c/phasespace_msgs/msg/detail/cameras__functions.c.o[0m
+[1.636s] [  8%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_c.dir/rosidl_generator_c/phasespace_msgs/msg/detail/rigids__functions.c.o[0m
+[1.636s] [  9%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_c.dir/rosidl_generator_c/phasespace_msgs/msg/detail/markers__functions.c.o[0m
+[1.636s] [ 11%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_c.dir/rosidl_generator_c/phasespace_msgs/msg/detail/camera__functions.c.o[0m
+[1.661s] [ 11%] Built target phasespace_msgs__cpp
+[1.672s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.672s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.672s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.714s] [ 16%] [32m[1mLinking C shared library libphasespace_msgs__rosidl_generator_c.so[0m
+[1.746s] [ 16%] Built target phasespace_msgs__rosidl_generator_c
+[1.753s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.753s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.755s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.889s] [ 22%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phasespace_msgs/msg/marker__type_support.cpp.o[0m
+[1.891s] [ 23%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phasespace_msgs/msg/rigid__type_support.cpp.o[0m
+[1.891s] [ 25%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phasespace_msgs/msg/rigids__type_support.cpp.o[0m
+[1.892s] [ 28%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phasespace_msgs/msg/camera__type_support.cpp.o[0m
+[1.892s] [ 28%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phasespace_msgs/msg/cameras__type_support.cpp.o[0m
+[1.892s] [ 29%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/phasespace_msgs/msg/markers__type_support.cpp.o[0m
+[1.927s] [ 33%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phasespace_msgs/msg/detail/marker__type_support.cpp.o[0m
+[1.927s] [ 33%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phasespace_msgs/msg/detail/rigid__type_support.cpp.o[0m
+[1.927s] [ 33%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phasespace_msgs/msg/detail/cameras__type_support.cpp.o[0m
+[1.927s] [ 35%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phasespace_msgs/msg/detail/markers__type_support.cpp.o[0m
+[1.927s] [ 36%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phasespace_msgs/msg/detail/rigids__type_support.cpp.o[0m
+[1.928s] [ 38%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/phasespace_msgs/msg/detail/camera__type_support.cpp.o[0m
+[2.055s] [ 39%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phasespace_msgs/msg/detail/dds_fastrtps/camera__type_support.cpp.o[0m
+[2.060s] [ 40%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phasespace_msgs/msg/camera__type_support.cpp.o[0m
+[2.091s] [ 42%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phasespace_msgs/msg/cameras__type_support.cpp.o[0m
+[2.125s] [ 43%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phasespace_msgs/msg/marker__type_support.cpp.o[0m
+[2.157s] [ 45%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phasespace_msgs/msg/markers__type_support.cpp.o[0m
+[2.166s] [ 46%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phasespace_msgs/msg/detail/dds_fastrtps/cameras__type_support.cpp.o[0m
+[2.168s] [ 47%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phasespace_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[2.168s] [ 49%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phasespace_msgs/msg/detail/camera__type_support.c.o[0m
+[2.181s] [ 50%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phasespace_msgs/msg/rigid__type_support.cpp.o[0m
+[2.185s] [ 52%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phasespace_msgs/msg/detail/dds_fastrtps/markers__type_support.cpp.o[0m
+[2.193s] [ 53%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phasespace_msgs/msg/detail/cameras__type_support.c.o[0m
+[2.205s] [ 54%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phasespace_msgs/msg/detail/dds_fastrtps/rigid__type_support.cpp.o[0m
+[2.215s] [ 56%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/phasespace_msgs/msg/rigids__type_support.cpp.o[0m
+[2.222s] [ 57%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phasespace_msgs/msg/detail/camera__type_support_c.cpp.o[0m
+[2.224s] [ 59%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phasespace_msgs/msg/detail/marker__type_support.c.o[0m
+[2.244s] [ 60%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phasespace_msgs/msg/detail/cameras__type_support_c.cpp.o[0m
+[2.249s] [ 61%] [32m[1mLinking CXX shared library libphasespace_msgs__rosidl_typesupport_c.so[0m
+[2.263s] [ 63%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phasespace_msgs/msg/detail/markers__type_support.c.o[0m
+[2.269s] [ 64%] [32m[1mLinking CXX shared library libphasespace_msgs__rosidl_typesupport_cpp.so[0m
+[2.296s] [ 64%] Built target phasespace_msgs__rosidl_typesupport_c
+[2.306s] [ 66%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phasespace_msgs/msg/detail/rigid__type_support.c.o[0m
+[2.308s] [ 67%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/phasespace_msgs/msg/detail/dds_fastrtps/rigids__type_support.cpp.o[0m
+[2.310s] [ 69%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/phasespace_msgs/msg/detail/rigids__type_support.c.o[0m
+[2.318s] [ 69%] Built target phasespace_msgs__rosidl_typesupport_cpp
+[2.323s] [ 70%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phasespace_msgs/msg/detail/marker__type_support_c.cpp.o[0m
+[2.325s] [ 71%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phasespace_msgs/msg/detail/markers__type_support_c.cpp.o[0m
+[2.332s] [ 73%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phasespace_msgs/msg/detail/rigid__type_support_c.cpp.o[0m
+[2.347s] [ 74%] [32mBuilding CXX object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/phasespace_msgs/msg/detail/rigids__type_support_c.cpp.o[0m
+[2.359s] [ 76%] [32m[1mLinking C shared library libphasespace_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.386s] [ 76%] Built target phasespace_msgs__rosidl_typesupport_introspection_c
+[2.408s] [ 77%] [32m[1mLinking CXX shared library libphasespace_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.473s] [ 77%] Built target phasespace_msgs__rosidl_typesupport_introspection_cpp
+[2.689s] [ 78%] [32m[1mLinking CXX shared library libphasespace_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.727s] [ 80%] [32m[1mLinking CXX shared library libphasespace_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.750s] [ 80%] Built target phasespace_msgs__rosidl_typesupport_fastrtps_c
+[2.785s] [ 80%] Built target phasespace_msgs__rosidl_typesupport_fastrtps_cpp
+[2.803s] [ 80%] Built target phasespace_msgs
+[2.820s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.287s] [ 81%] Built target phasespace_msgs__py
+[3.310s] [ 83%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_py.dir/rosidl_generator_py/phasespace_msgs/msg/_marker_s.c.o[0m
+[3.310s] [ 84%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_py.dir/rosidl_generator_py/phasespace_msgs/msg/_markers_s.c.o[0m
+[3.311s] [ 85%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_py.dir/rosidl_generator_py/phasespace_msgs/msg/_rigid_s.c.o[0m
+[3.312s] [ 87%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_py.dir/rosidl_generator_py/phasespace_msgs/msg/_cameras_s.c.o[0m
+[3.312s] [ 88%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_py.dir/rosidl_generator_py/phasespace_msgs/msg/_rigids_s.c.o[0m
+[3.314s] [ 90%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_generator_py.dir/rosidl_generator_py/phasespace_msgs/msg/_camera_s.c.o[0m
+[3.452s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/phasespace_msgs/libphasespace_msgs__rosidl_generator_py.so[0m
+[3.483s] [ 91%] Built target phasespace_msgs__rosidl_generator_py
+[3.504s] [ 92%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.505s] [ 94%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.506s] [ 95%] [32mBuilding C object CMakeFiles/phasespace_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.619s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.619s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.626s] [100%] [32m[1mLinking C shared library rosidl_generator_py/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.645s] [100%] Built target phasespace_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.646s] [100%] Built target phasespace_msgs__rosidl_typesupport_c__pyext
+[3.655s] [100%] Built target phasespace_msgs__rosidl_typesupport_introspection_c__pyext
+[3.668s] Invoked command in '/home/lingfan/ros2_ws/build/phasespace_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lingfan/ros2_ws/build/phasespace_msgs -- -j16 -l16
+[3.681s] Invoking command in '/home/lingfan/ros2_ws/build/phasespace_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lingfan/ros2_ws/build/phasespace_msgs
+[3.690s] -- Install configuration: "Release"
+[3.691s] -- Execute custom install script
+[3.691s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/ament_index/resource_index/rosidl_interfaces/phasespace_msgs
+[3.703s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/camera.h
+[3.713s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/cameras.h
+[3.721s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__functions.h
+[3.730s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__struct.h
+[3.740s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__type_support.h
+[3.749s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__functions.h
+[3.759s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__struct.h
+[3.769s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__type_support.h
+[3.778s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__functions.h
+[3.788s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__struct.h
+[3.798s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__type_support.h
+[3.808s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__functions.h
+[3.819s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__struct.h
+[3.831s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__type_support.h
+[3.844s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__functions.h
+[3.856s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__struct.h
+[3.867s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__type_support.h
+[3.878s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__functions.h
+[3.890s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__struct.h
+[3.899s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__type_support.h
+[3.909s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/marker.h
+[3.921s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/markers.h
+[3.932s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rigid.h
+[3.944s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rigids.h
+[3.955s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.966s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/environment/library_path.sh
+[3.978s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/environment/library_path.dsv
+[3.991s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__rosidl_typesupport_fastrtps_c.h
+[4.002s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__rosidl_typesupport_fastrtps_c.h
+[4.013s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[4.025s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_c.h
+[4.036s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__rosidl_typesupport_fastrtps_c.h
+[4.044s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__rosidl_typesupport_fastrtps_c.h
+[4.054s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.062s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__rosidl_typesupport_introspection_c.h
+[4.074s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__rosidl_typesupport_introspection_c.h
+[4.083s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[4.092s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__rosidl_typesupport_introspection_c.h
+[4.102s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__rosidl_typesupport_introspection_c.h
+[4.110s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__rosidl_typesupport_introspection_c.h
+[4.119s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.129s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/camera.hpp
+[4.139s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/cameras.hpp
+[4.148s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__builder.hpp
+[4.158s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__struct.hpp
+[4.168s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__traits.hpp
+[4.177s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__type_support.hpp
+[4.187s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__builder.hpp
+[4.197s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__struct.hpp
+[4.207s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__traits.hpp
+[4.220s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__type_support.hpp
+[4.231s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__builder.hpp
+[4.241s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__struct.hpp
+[4.252s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__traits.hpp
+[4.263s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__type_support.hpp
+[4.275s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__builder.hpp
+[4.288s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__struct.hpp
+[4.300s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__traits.hpp
+[4.308s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__type_support.hpp
+[4.319s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__builder.hpp
+[4.329s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__struct.hpp
+[4.339s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__traits.hpp
+[4.349s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__type_support.hpp
+[4.359s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__builder.hpp
+[4.368s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__struct.hpp
+[4.377s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__traits.hpp
+[4.385s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__type_support.hpp
+[4.397s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/marker.hpp
+[4.409s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/markers.hpp
+[4.419s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rigid.hpp
+[4.430s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rigids.hpp
+[4.440s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.451s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__rosidl_typesupport_fastrtps_cpp.hpp
+[4.460s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__rosidl_typesupport_fastrtps_cpp.hpp
+[4.471s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[4.480s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__rosidl_typesupport_fastrtps_cpp.hpp
+[4.488s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__rosidl_typesupport_fastrtps_cpp.hpp
+[4.497s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__rosidl_typesupport_fastrtps_cpp.hpp
+[4.505s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.513s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/camera__rosidl_typesupport_introspection_cpp.hpp
+[4.521s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/cameras__rosidl_typesupport_introspection_cpp.hpp
+[4.529s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[4.538s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/markers__rosidl_typesupport_introspection_cpp.hpp
+[4.550s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigid__rosidl_typesupport_introspection_cpp.hpp
+[4.560s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/include/phasespace_msgs/phasespace_msgs/msg/detail/rigids__rosidl_typesupport_introspection_cpp.hpp
+[4.571s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/environment/pythonpath.sh
+[4.582s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/environment/pythonpath.dsv
+[4.592s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.601s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.612s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.623s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[4.634s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/__init__.py
+[4.644s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_c.c
+[4.654s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.666s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/_phasespace_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.676s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/libphasespace_msgs__rosidl_generator_py.so
+[4.682s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/__init__.py
+[4.690s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_camera.py
+[4.699s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_camera_s.c
+[4.709s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_cameras.py
+[4.720s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_cameras_s.c
+[4.731s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_marker.py
+[4.742s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_marker_s.c
+[4.754s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_markers.py
+[4.764s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_markers_s.c
+[4.774s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigid.py
+[4.783s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigid_s.c
+[4.793s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigids.py
+[4.802s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigids_s.c
+[4.813s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.823s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.833s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.845s] -- Up-to-date symlink: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.845s] -- Up-to-date symlink: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.845s] -- Up-to-date symlink: /home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/phasespace_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.845s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/Camera.idl
+[4.856s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/Cameras.idl
+[4.861s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/Marker.idl
+[4.871s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/Markers.idl
+[4.880s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/Rigid.idl
+[4.891s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/Rigids.idl
+[4.901s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/Camera.msg
+[4.907s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/Cameras.msg
+[4.915s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/Marker.msg
+[4.923s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/Markers.msg
+[4.931s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/Rigid.msg
+[4.940s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/Rigids.msg
+[4.950s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Camera.msg
+[4.958s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Cameras.msg
+[4.965s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Marker.msg
+[4.974s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Markers.msg
+[4.985s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Rigid.msg
+[4.993s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/msg/msg/Rigids.msg
+[5.001s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/ament_index/resource_index/package_run_dependencies/phasespace_msgs
+[5.008s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/ament_index/resource_index/parent_prefix_path/phasespace_msgs
+[5.014s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/environment/ament_prefix_path.sh
+[5.020s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/environment/ament_prefix_path.dsv
+[5.027s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/environment/path.sh
+[5.035s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/environment/path.dsv
+[5.043s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/local_setup.bash
+[5.053s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/local_setup.sh
+[5.064s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/local_setup.zsh
+[5.074s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/local_setup.dsv
+[5.085s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/package.dsv
+[5.095s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/ament_index/resource_index/packages/phasespace_msgs
+[5.104s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/rosidl_cmake-extras.cmake
+[5.114s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.124s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.136s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.146s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.156s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.168s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.177s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgsConfig.cmake
+[5.187s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgsConfig-version.cmake
+[5.197s] -- Symlinking: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/package.xml
+[5.206s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_generator_c.so
+[5.207s] -- Set runtime path of "/home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_generator_c.so" to ""
+[5.207s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_fastrtps_c.so
+[5.207s] -- Set runtime path of "/home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.207s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_introspection_c.so
+[5.207s] -- Set runtime path of "/home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.207s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_c.so
+[5.207s] -- Set runtime path of "/home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_c.so" to ""
+[5.208s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.208s] -- Set runtime path of "/home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.208s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_introspection_cpp.so
+[5.208s] -- Set runtime path of "/home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.208s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_cpp.so
+[5.208s] -- Set runtime path of "/home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_typesupport_cpp.so" to ""
+[5.245s] Listing '/home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs'...
+[5.245s] Compiling '/home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/__init__.py'...
+[5.245s] Listing '/home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg'...
+[5.245s] Compiling '/home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/__init__.py'...
+[5.245s] Compiling '/home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_camera.py'...
+[5.245s] Compiling '/home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_cameras.py'...
+[5.245s] Compiling '/home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_marker.py'...
+[5.245s] Compiling '/home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_markers.py'...
+[5.245s] Compiling '/home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigid.py'...
+[5.245s] Compiling '/home/lingfan/ros2_ws/install/phasespace_msgs/local/lib/python3.10/dist-packages/phasespace_msgs/msg/_rigids.py'...
+[5.248s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_generator_py.so
+[5.248s] -- Set runtime path of "/home/lingfan/ros2_ws/install/phasespace_msgs/lib/libphasespace_msgs__rosidl_generator_py.so" to ""
+[5.248s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_cExport.cmake
+[5.248s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_cExport-release.cmake
+[5.248s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.248s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[5.248s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.249s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[5.249s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_cExport.cmake
+[5.249s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_cExport-release.cmake
+[5.249s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_cppExport.cmake
+[5.249s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.249s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[5.249s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.249s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[5.249s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_cppExport.cmake
+[5.249s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/phasespace_msgs__rosidl_typesupport_cppExport-release.cmake
+[5.249s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_pyExport.cmake
+[5.249s] -- Installing: /home/lingfan/ros2_ws/install/phasespace_msgs/share/phasespace_msgs/cmake/export_phasespace_msgs__rosidl_generator_pyExport-release.cmake
+[5.251s] Invoked command in '/home/lingfan/ros2_ws/build/phasespace_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lingfan/ros2_ws/build/phasespace_msgs

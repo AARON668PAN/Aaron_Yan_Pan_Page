@@ -1,0 +1,12 @@
+msg/Camera.idl
+msg/Camera.msg
+msg/Cameras.idl
+msg/Cameras.msg
+msg/Marker.idl
+msg/Marker.msg
+msg/Markers.idl
+msg/Markers.msg
+msg/Rigid.idl
+msg/Rigid.msg
+msg/Rigids.idl
+msg/Rigids.msg

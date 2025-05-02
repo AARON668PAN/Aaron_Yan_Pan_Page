@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from phasespace_msgs/msg/Marker.msg
+// generated code does not contain a copyright notice
+
+
+module phasespace_msgs {
+  module msg {
+    struct Marker {
+      uint32 id;
+
+      uint32 flags;
+
+      uint64 time;
+
+      float x;
+
+      float y;
+
+      float z;
+
+      float cond;
+    };
+  };
+};

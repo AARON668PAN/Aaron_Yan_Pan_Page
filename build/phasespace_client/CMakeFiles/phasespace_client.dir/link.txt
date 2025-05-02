@@ -1,0 +1,2 @@
+/usr/bin/ar qc libphasespace_client.a CMakeFiles/phasespace_client.dir/src/psnode.cpp.o
+/usr/bin/ranlib libphasespace_client.a

@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from phasespace_msgs/msg/Rigids.msg
+// generated code does not contain a copyright notice
+
+#include "phasespace_msgs/msg/Rigid.idl"
+
+module phasespace_msgs {
+  module msg {
+    struct Rigids {
+      sequence<phasespace_msgs::msg::Rigid> rigids;
+    };
+  };
+};
