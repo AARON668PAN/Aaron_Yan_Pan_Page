@@ -1,0 +1,96 @@
+:root {
+  --bg: #fcfcfa;
+  --fg: #1f2328;
+  --muted: #59636e;
+  --line: #e3e5e8;
+  --accent: #245a81;
+  --accent-hover: #1a4260;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151719;
+    --fg: #e6e8ea;
+    --muted: #9aa4ae;
+    --line: #2c3136;
+    --accent: #7fb3da;
+    --accent-hover: #a9cde8;
+  }
+}
+
+* { box-sizing: border-box; }
+html { color-scheme: light dark; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 56px 24px 40px;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { color: var(--accent-hover); text-decoration: underline; }
+
+/* Header */
+.hero {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.photo {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  flex-shrink: 0;
+}
+h1 { font-size: 2rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+.tagline { margin: 0 0 8px; color: var(--muted); }
+.affil { margin: 0 0 10px; font-size: 0.95rem; }
+.links a { margin-right: 16px; font-weight: 500; }
+.links { margin: 0; }
+
+/* Sections */
+section { margin-top: 36px; }
+h2 {
+  font-size: 1.15rem;
+  margin: 0 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--line);
+}
+section p { margin: 0; }
+
+/* Publications */
+.pubs { list-style: none; padding: 0; margin: 0; }
+.pubs li { margin-bottom: 16px; }
+.pubs li > span { display: block; }
+.pubs .title { font-weight: 600; }
+.pubs .authors { font-size: 0.95rem; }
+.pubs .venue { color: var(--muted); font-size: 0.95rem; }
+.pubs .pub-links a { font-size: 0.9rem; margin-right: 12px; }
+
+/* Timeline (experience, education) */
+.timeline { list-style: none; padding: 0; margin: 0; }
+.timeline li {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+.when { color: var(--muted); font-size: 0.92rem; padding-top: 2px; white-space: nowrap; }
+.where { display: block; font-weight: 600; }
+.timeline div { font-size: 0.97rem; }
+
+footer { margin-top: 48px; color: var(--muted); font-size: 0.85rem; }
+footer p { margin: 0; }
+
+@media (max-width: 560px) {
+  main { padding-top: 32px; }
+  .hero { flex-direction: column; align-items: flex-start; gap: 18px; }
+  .photo { width: 140px; }
+  .timeline li { grid-template-columns: 1fr; gap: 2px; }
+}
