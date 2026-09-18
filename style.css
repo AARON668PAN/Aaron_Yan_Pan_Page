@@ -64,6 +64,27 @@ h2 {
 }
 section p { margin: 0; }
 
+/* Projects */
+.projects { list-style: none; padding: 0; margin: 0; display: grid; gap: 22px; }
+.project {
+  display: grid;
+  grid-template-columns: minmax(0, 340px) 1fr;
+  gap: 20px;
+  align-items: start;
+}
+.project video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid var(--line);
+  background: #000;
+}
+.project h3 { font-size: 1rem; margin: 0 0 6px; }
+.project-text p { margin: 0; font-size: 0.95rem; }
+.project-links { margin-top: 8px !important; }
+.project-links a { font-size: 0.9rem; margin-right: 14px; }
+
 /* Publications */
 .pubs { list-style: none; padding: 0; margin: 0; }
 .pubs li { margin-bottom: 16px; }
@@ -93,4 +114,5 @@ footer p { margin: 0; }
   .hero { flex-direction: column; align-items: flex-start; gap: 18px; }
   .photo { width: 140px; }
   .timeline li { grid-template-columns: 1fr; gap: 2px; }
+  .project { grid-template-columns: 1fr; gap: 12px; }
 }
