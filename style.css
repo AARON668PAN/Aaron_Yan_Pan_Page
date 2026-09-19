@@ -27,9 +27,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 main {
-  max-width: 1200px;
+  max-width: 1360px;
   margin: 0 auto;
-  padding: 56px 32px 48px;
+  padding: 56px 40px 48px;
   display: grid;
   grid-template-columns: 240px minmax(0, 1fr);
   gap: 64px;
@@ -66,9 +66,14 @@ h2 {
 section p { margin: 0; }
 #about p { max-width: 72ch; }
 
-/* Projects: video spans the full content column, text sits below it */
-.projects { list-style: none; padding: 0; margin: 0; display: grid; gap: 34px; }
-.project { display: grid; gap: 12px; }
+/* Projects: video on the left, text on the right */
+.projects { list-style: none; padding: 0; margin: 0; display: grid; gap: 30px; }
+.project {
+  display: grid;
+  grid-template-columns: minmax(0, 560px) minmax(260px, 1fr);
+  gap: 24px;
+  align-items: start;
+}
 .project video {
   width: 100%;
   height: auto;
@@ -77,9 +82,9 @@ section p { margin: 0; }
   border: 1px solid var(--line);
   background: #000;
 }
-.project h3 { font-size: 1.05rem; margin: 0 0 4px; }
-.project-text p { margin: 0; font-size: 0.96rem; max-width: 80ch; }
-.project-links { margin-top: 6px !important; }
+.project h3 { font-size: 1.05rem; margin: 0 0 6px; }
+.project-text p { margin: 0; font-size: 0.96rem; }
+.project-links { margin-top: 8px !important; }
 .project-links a { font-size: 0.9rem; margin-right: 14px; }
 
 /* Publications */
@@ -115,4 +120,5 @@ footer p { margin: 0; }
   .side { position: static; }
   .photo { width: 160px; }
   .timeline li { grid-template-columns: 1fr; gap: 2px; }
+  .project { grid-template-columns: 1fr; gap: 12px; }
 }
