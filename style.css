@@ -70,13 +70,14 @@ section p { margin: 0; }
 .projects { list-style: none; padding: 0; margin: 0; display: grid; gap: 30px; }
 .project {
   display: grid;
-  grid-template-columns: minmax(0, 560px) minmax(260px, 1fr);
+  grid-template-columns: minmax(0, 450px) minmax(260px, 1fr);
   gap: 24px;
   align-items: start;
 }
 .project video {
   width: 100%;
-  height: auto;
+  aspect-ratio: 16 / 9;   /* every card gets the same frame; sources that differ are cropped, not letterboxed */
+  object-fit: cover;
   display: block;
   border-radius: 6px;
   border: 1px solid var(--line);
