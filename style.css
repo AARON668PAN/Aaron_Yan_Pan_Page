@@ -91,15 +91,11 @@ section p { margin: 0; }
 /* Publications */
 .pubs { list-style: none; padding: 0; margin: 0; }
 .pubs li { margin-bottom: 16px; }
-.pubs li > span { display: block; }
-.pubs .title { font-weight: 600; }
+.pubs li > span, .pubs li > a { display: block; }
+.pubs .title { font-weight: 600; color: var(--fg); }
+a.title:hover { color: var(--accent); text-decoration: none; }
 .pubs .authors { font-size: 0.95rem; }
-.pubs .venue {
-  color: var(--muted); font-size: 0.95rem;
-  display: flex; justify-content: space-between; align-items: baseline; gap: 8px 16px; flex-wrap: wrap;
-}
-.pubs .pub-links { margin-left: auto; white-space: nowrap; }
-.pubs .pub-links a { font-size: 0.9rem; margin-left: 12px; }
+.pubs .venue { color: var(--muted); font-size: 0.95rem; }
 
 /* Timeline (experience, education) */
 .timeline { list-style: none; padding: 0; margin: 0; }
