@@ -1,1 +1,0 @@
-/home/lingfan/ros2_ws/build/phasespace_client/ament_cmake_environment_hooks/local_setup.zsh

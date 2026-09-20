@@ -1,1 +1,0 @@
-/home/lingfan/ros2_ws/build/phasespace_msgs/rosidl_generator_c/phasespace_msgs/msg/detail/camera__type_support.h

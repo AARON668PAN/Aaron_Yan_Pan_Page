@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yan Pan</title>
+<meta name="description" content="Yan Pan — MEng Robotics and AI at UCL. Motion generation, humanoid robotics, human object interaction.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+<link rel="stylesheet" href="style.css?v=20260920a">
+</head>
+<body>
+<main>
+
+<aside class="side">
+  <img class="photo" src="assets/photo.jpg" alt="Yan Pan with a humanoid robot" width="240" height="231">
+  <h1>Yan Pan</h1>
+  <p class="tagline">Humanoid Robotics<br>Human Object Interaction<br>Affective Robotics<br>Motion Generation · RL · VLA</p>
+  <p class="affil">MEng Robotics and Artificial Intelligence<br>University College London</p>
+  <p class="affil">Research Assistant<br>UCL Humanoid Robotics Lab</p>
+  <p class="affil">Algorithm Intern<br>LimX Dynamics</p>
+  <p class="links">
+    <a href="mailto:yanpan4396@icloud.com">yanpan4396@icloud.com</a>
+  </p>
+</aside>
+
+<div class="content">
+
+<section id="about">
+  <h2>About</h2>
+  <p>I am a fourth-year MEng student in Robotics and Artificial Intelligence at UCL, working as a research assistant in the
+    UCL Humanoid Robotics Lab with Dr Chengxu Zhou, and an algorithm intern at LimX Dynamics.
+    My research is on generating whole-body motion for humanoid robots: making it expressive, controllable and executable on real hardware.
+    At UCL I work on diffusion-based motion generation conditioned on affect and on expressive human-robot interaction, deployed on the Unitree G1.
+    At LimX I build the sim-to-real data engine for humanoid loco-manipulation: diffusion-generated human object interaction trajectories,
+    RL whole-body tracking in Isaac Lab, and a vision-language-action policy trained on simulated egocentric data and deployed on the LimX humanoid.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <ul class="projects">
+    <li class="project">
+      <video src="assets/demos/pamor_walk.mp4" poster="assets/demos/pamor_walk.jpg" autoplay muted loop playsinline preload="metadata"></video>
+      <div class="project-text">
+        <h3>PAMoR: affect as a control parameter for humanoid motion</h3>
+        <p>The same walk, generated with four different valence-arousal commands and executed on a Unitree G1. Affect is measured directly from the robot's kinematics, so any text-specified action can be performed in any emotional style, in real time, with the command editable while the robot moves.</p>
+        <p class="project-links"><a href="https://aaron668pan.github.io/PAMoR_web_page/">Project page</a></p>
+      </div>
+    </li>
+    <li class="project">
+      <video src="assets/demos/hierarchical_handshake.mp4" poster="assets/demos/hierarchical_handshake.jpg" autoplay muted loop playsinline preload="metadata"></video>
+      <div class="project-text">
+        <h3>Intention-aware expressive gestures for human-robot interaction</h3>
+        <p>A person extends a hand; a vision-language model reads the gesture, infers the intention with a confidence score, and picks a response, which a diffusion motion model turns into a whole-body gesture executed on the Unitree G1 in real time. The same loop handles waves, defensive postures and celebrations, and falls back to a neutral pose when the input is ambiguous.</p>
+        <p class="project-links"><a href="https://youtu.be/_C60tH7mb2I">Full video</a><a href="https://arxiv.org/abs/2506.01563">Paper</a></p>
+      </div>
+    </li>
+    <li class="project">
+      <video src="assets/demos/calf_arms_carry.mp4" poster="assets/demos/calf_arms_carry.jpg" autoplay muted loop playsinline preload="metadata"></video>
+      <div class="project-text">
+        <h3>Calf-integrated arms for quadruped loco-manipulation</h3>
+        <p>A manipulator built into each front calf of a Unitree Go2 lets the robot grasp at ground level and carry with all four feet planted, so the base stays free to walk while an arm holds the object. Here it picks a basket off the floor and delivers it to a table in simulation; a vision-language model sequences the skills for longer tasks.</p>
+        <p class="project-links"><a href="https://arxiv.org/abs/2607.06186">Paper</a></p>
+      </div>
+    </li>
+    <li class="project">
+      <video src="assets/demos/antobot_followme.mp4" poster="assets/demos/antobot_followme.jpg" autoplay muted loop playsinline preload="metadata"></video>
+      <div class="project-text">
+        <h3>Person following for an agricultural robot</h3>
+        <p>AntoBot, spring 2025. YOLO detects people and an OSNet re-identification network keeps the lock on the right one; an EKF fuses vision with odometry so tracking survives occlusions, and a potential-field planner keeps the robot behind the person and away from obstacles. Runs in ROS2 on the real robot.</p>
+        <p class="project-links"><a href="https://youtu.be/XmE5XEWcFyk">Full video</a><a href="https://github.com/AARON668PAN/Antobot_Follow_me">Code</a></p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <ol class="pubs">
+    <li>
+      <a class="title" href="https://aaron668pan.github.io/PAMoR_web_page/">PAMoR: Parameterized Affective Motion Generation in Real Time for Humanoid Robots</a>
+      <span class="authors"><b>Yan Pan</b>, Lingfan Bao, Tianhu Peng, Chengxu Zhou</span>
+      <span class="venue"><em>IEEE Robotics and Automation Letters</em>, under review</span>
+    </li>
+    <li>
+      <span class="title">Beyond Kinematic Tracking: Preserving Affective Intent in Humanoid Motion Execution</span>
+      <span class="authors">Lingfan Bao, Hanshang Zhu, <b>Yan Pan</b>, et al.</span>
+      <span class="venue"><em>IEEE Robotics and Automation Letters</em>, under review</span>
+    </li>
+    <li>
+      <a class="title" href="https://arxiv.org/abs/2607.06186">Calf-Integrated Arms for Bimanual Quadruped Loco-Manipulation</a>
+      <span class="authors"><b>Yan Pan</b>, Yuanchuan Ren, Chipui Chan, Jingcheng Sun, Chengxu Zhou</span>
+      <span class="venue"><em>International Conference on Climbing and Walking Robots</em>, Springer, 2026</span>
+    </li>
+    <li>
+      <a class="title" href="https://arxiv.org/abs/2506.01563">Hierarchical Intention-Aware Expressive Motion Generation for Humanoid Robots</a>
+      <span class="authors">Lingfan Bao, <b>Yan Pan</b>, Tianhu Peng, Dimitrios Kanoulas, Chengxu Zhou</span>
+      <span class="venue">arXiv preprint, 2025</span>
+    </li>
+  </ol>
+</section>
+
+<section id="awards">
+  <h2>Awards</h2>
+  <ol class="pubs">
+    <li>
+      <span class="title">MegaPower Router: Intelligent &amp; Reliable Integration Solution for Efficient Multiple Renewable Energy Sources</span>
+      <span class="authors">Zhengzhao Li, <b>Yan Pan</b>, et al. · Advisors: Jianjun Ma et al.</span>
+      <span class="venue"><b>Gold Award</b>, <em>China International College Students' Innovation Competition 2025</em> (national innovation and entrepreneurship competition led by the Ministry of Education of China), Oct 2025</span>
+    </li>
+  </ol>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <ul class="timeline">
+    <li>
+      <span class="when">Summer 2026</span>
+      <div><span class="where">LimX Dynamics</span>
+        Sim-to-real data engine for humanoid loco-manipulation on the LimX HU_D04: diffusion-generated human object interaction trajectories,
+        RL tracking policies in Isaac Lab, and a FluxVLA policy trained on simulated egocentric data and deployed on the real robot.</div>
+    </li>
+    <li>
+      <span class="when">Summer 2025</span>
+      <div><span class="where">Shanghai Jiao Tong University, Scale Lab</span>
+        Fine-tuned the GR00T whole-body VLA model on simulation demonstrations and deployed it on a Unitree G1 for pick-and-place.</div>
+    </li>
+    <li>
+      <span class="when">Spring 2025</span>
+      <div><span class="where">AntoBot</span>
+        Real-time person-following for an agricultural mobile robot in ROS2: YOLO + OSNet re-identification, EKF tracking through occlusions, potential-field planning.</div>
+    </li>
+    <li>
+      <span class="when">2024 – present</span>
+      <div><span class="where">UCL Humanoid Robotics Lab</span>
+        Research assistant: affective motion generation, expressive human-robot interaction, and RL whole-body control on the Unitree G1.</div>
+    </li>
+    <li>
+      <span class="when">Summer 2024</span>
+      <div><span class="where">Westlake University, MiLAB</span>
+        Video-to-robot motion imitation: 3D pose estimation, retargeting to the Unitree G1, and teacher-student RL tracking in simulation.</div>
+    </li>
+  </ul>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <ul class="timeline">
+    <li>
+      <span class="when">2023 – 2027</span>
+      <div><span class="where">University College London</span>
+        MEng Robotics and Artificial Intelligence, First Class Honours.</div>
+    </li>
+    <li>
+      <span class="when">2022 – 2023</span>
+      <div><span class="where">University College London</span>
+        Science and Engineering Foundation Year, Distinction.</div>
+    </li>
+  </ul>
+</section>
+
+<footer>
+  <p>© 2026 Yan Pan</p>
+</footer>
+
+</div>
+</main>
+</body>
+</html>

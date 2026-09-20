@@ -1,1 +1,0 @@
-/home/lingfan/ros2_ws/build/phasespace_msgs/rosidl_typesupport_fastrtps_c/phasespace_msgs/msg/detail/rigids__rosidl_typesupport_fastrtps_c.h
