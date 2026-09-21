@@ -73,7 +73,7 @@
       <video src="assets/demos/antobot_followme.mp4" poster="assets/demos/antobot_followme.jpg" autoplay muted loop playsinline preload="metadata"></video>
       <div class="project-text">
         <h3>Person following for an agricultural robot</h3>
-        <p>AntoBot, spring 2025. YOLO detects people and an OSNet re-identification network keeps the lock on the right one; an EKF fuses vision with odometry so tracking survives occlusions, and a potential-field planner keeps the robot behind the person and away from obstacles. Runs in ROS2 on the real robot.</p>
+        <p>AntoBot, spring 2025. The robot is told to follow one person and keeps following them as others cross its path and as someone walks between them and blocks the view. Re-identification decides who the target is, tracking fused with odometry bridges the seconds they are hidden, and a local planner keeps the robot behind the person and clear of obstacles. Runs in ROS2 on the real robot outdoors.</p>
         <p class="project-links"><a href="https://youtu.be/XmE5XEWcFyk">Video</a></p>
       </div>
     </li>
