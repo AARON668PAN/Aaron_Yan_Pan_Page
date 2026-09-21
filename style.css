@@ -49,6 +49,7 @@ a:hover { color: var(--accent-hover); text-decoration: underline; }
   margin-bottom: 18px;
 }
 h1 { font-size: 1.9rem; margin: 0 0 6px; letter-spacing: -0.01em; }
+h1 .cn { font-weight: 500; font-size: 0.85em; color: var(--muted); margin-left: 2px; }
 .tagline { margin: 0 0 16px; color: var(--muted); font-size: 0.92rem; line-height: 1.5; }
 .affil { margin: 0 0 10px; font-size: 0.93rem; line-height: 1.4; }
 .links { margin: 16px 0 0; display: grid; gap: 4px; font-size: 0.92rem; }
