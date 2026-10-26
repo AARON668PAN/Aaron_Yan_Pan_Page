@@ -68,7 +68,7 @@
       <video src="assets/demos/bkt_expressive.mp4" poster="assets/demos/bkt_expressive.jpg" autoplay muted loop playsinline preload="metadata"></video>
       <div class="project-text">
         <h3>Keeping the expression when a humanoid tracks a motion</h3>
-        <p>A bow, a kick and a crouch on a Unitree G1, each shown next to its reference: without the residual the tracker follows the motion but flattens it, so the lean straightens, the kick's swing shrinks and the crouch stays high; with the residual the lean and the swing return and part of the drop is recovered. A residual policy on a frozen tracker compensates for amplitude, energy, body expansion, lean and pelvis height, and motion-aware gating gives most of the correction to the body parts that are actually moving, so the underlying tracking is left alone. Motion-specific residuals are distilled into one policy shared across eight motion categories.</p>
+        <p>A whole-body tracker can follow a motion with low error and still flatten it: the bow straightens, the kick swings less, the crouch stays high. A residual policy on top of the frozen tracker brings much of that expression back, without retraining the tracker. Shown on a Unitree G1: reference, without the residual, with it.</p>
         <p class="project-links"><a href="https://youtu.be/5EmDvZdKiBY">Video</a><a href="https://arxiv.org/abs/2610.19393">Paper</a></p>
       </div>
     </li>
